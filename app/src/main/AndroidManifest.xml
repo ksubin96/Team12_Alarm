@@ -25,9 +25,9 @@
         <activity android:name=".Activities.AlarmActivity"
             android:label="알람화면 액티비티" />
         <activity android:name=".Activities.SendSMSActivity"
-            android:label="문자메세지 설정" />
+            android:label="문자메세지 설정 액티비티" />
         <activity android:name=".Activities.BatteryActivity"
-            android:label="알람화면 액티비티" />
+            android:label="잔존용량 설정 액티비티" />
         <activity android:name=".Activities.BatteryAlarmScreenActivity"
             android:label="알람화면 액티비티" />
 <!--        2 service-->
@@ -39,7 +39,7 @@
         <service android:name=".Service.BatteryAlarmService"
             android:enabled="true"
             android:exported="true" />
-<!--        2 Receiver-->
+<!--        1 Receiver-->
         <receiver android:name=".Service.AlarmReceiver" />
     </application>
 

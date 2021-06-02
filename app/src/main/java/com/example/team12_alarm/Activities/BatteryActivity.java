@@ -29,7 +29,7 @@ public class BatteryActivity extends AppCompatActivity {
         Switch switchButton = (Switch) findViewById(R.id.switch1);
 
 
-        final String[] battery_set = {"5","6","7","8","9","10","11","12","13","14","100"};
+        final String[] battery_set = {"5","10","20","25","30","40","50","100"};
 
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner1);
@@ -75,7 +75,6 @@ public class BatteryActivity extends AppCompatActivity {
 
     public static int getBatSet(){
         return bat_set;
-
     }
 
 

@@ -37,8 +37,7 @@ public class BatteryAlarmScreenActivity extends Activity {
                 System.exit(0);
 
             }
-
-
         });
     }
+
 }
